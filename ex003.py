@@ -1,7 +1,7 @@
 # crie um progragrama que leia dois numeros e mostre a soma entre eles
 
-x1= input('Digite um numero: ')
-x2= input('Digite um numero: ')
+x1= int(input('Digite um numero: '))
+x2= int(input('Digite um numero: '))
 
 print('--.--' * 10)
 soma = x1 + x2 
