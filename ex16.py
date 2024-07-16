@@ -2,3 +2,4 @@
 from math import trunc
 num = float(input('Digite um numero Real: '))
 print(f'O número {num } tem parte inteira: {trunc(num)} ')
+

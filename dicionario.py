@@ -44,6 +44,7 @@ pessoas = {'Nome': 'Bruno','Sexo': 'M', 'Idade': 29 }
 
 # consigo add sem usar o .append[]
 
+# pessoas ['nome'] = ['Tauan']
 
 # CRIANDO UM DICIONARIO DENTRO DE UMA LISTA
 # brasil = []
