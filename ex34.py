@@ -10,3 +10,4 @@ if salario > 1250:
 if salario <= 1250:
     aumento = salario*15/10
     print(f"O seu aumento é de: { aumento:.2f}")
+    
