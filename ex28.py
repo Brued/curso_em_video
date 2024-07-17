@@ -14,4 +14,5 @@ if usuario == x :
     print("Você venceu!")
 else:
     print("Você perdeu!")
-
+# from random import randint
+pc = randit(0,5)
