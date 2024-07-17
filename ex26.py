@@ -10,4 +10,4 @@ print(f"A letra 'a' aparece:", frase.count('a'))
 #primeira vez
 print(f"A letra 'a' aparece na posição: ", frase.find('a')+1)
 
-print(f"A letra 'a' aparece na posição: ", frase.rfind('a'))
+print(f"A letra 'a' aparece na posição: ", frase.rfind('a')+1)
