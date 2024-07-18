@@ -6,4 +6,4 @@ suc = num + 1
 ante = num -1
 print('_.' * 10)
 
-print(f'Seu sucessor é {suc} e seu antecessor é {ante}.')
+print(f'Seu sucessor é \033[32m{suc}\033[m e seu antecessor é \033[33m{ante}\033[m.')

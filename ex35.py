@@ -13,6 +13,6 @@ z = int(input("Insira o comprimento da reta três: "))
 if x + y > z and z + x > y and y + z > x :
     print(f"Os valores {x}, {y} e {z} formam um triangulo.")
 else: 
-    print(f"Os valores {x}, {y} e {z} não formam um triangulo.")
+    print(f"Os valores \033[4;31m{ x} , {y} e {z} não formam um triangulo.")
 
     
