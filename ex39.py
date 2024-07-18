@@ -2,7 +2,7 @@
 # - se ele ainda vai se alistar ao serviço militr
 # - se é a hora de se alistr 
 # - se ka passou do tempo do alistamento
-
+##
 # seu programa tambem devera mostrar o tempo que falta ou passou do prazo
 
 idade = int(input('Insira a sua idade: '))
