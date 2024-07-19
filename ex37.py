@@ -12,9 +12,9 @@ print('=.'*20)
 base = int(input('Insira 1, 2 ou 3: '))
 print('=.'*20)
 if base == 1 :
-    print(f"O numero {num} na base binária ficará: \033[31m{bin(num)}\033[m")
+    print(f"O numero {num} na base binária ficará: \033[31m{bin(num)[2:]}\033[m")
 elif base == 2: 
-    print(f"O numero {num} na base octal ficará: \033[31m{oct(num)}\033[m")
+    print(f"O numero {num} na base octal ficará: \033[31m{oct(num)[2:]}\033[m")
 else:
-    print(f"O numero {num} na base hexadecimal ficará: \033[31m{hex(num)}\033[m")
+    print(f"O numero {num} na base hexadecimal ficará: \033[31m{hex(num)[2:]}\033[m")
 
