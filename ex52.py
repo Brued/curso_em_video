@@ -15,3 +15,13 @@ if contador == 0:
     print(f"{num} é Primo")
 else:
     print(f"{num} não é Primo")
+
+
+# gustavo
+
+for i in range(1, num+1):
+    if num % i ==0:
+        print('\033[32m', end=' ')
+    else:
+     print('\033[31m ', end= ' ')
+    print(f"{i}", end=' ')
