@@ -2,8 +2,16 @@
 
 
 frase = str(input('Digite uma frase: ')).upper().strip()
-print(frase)
+palavras = frase.split() # sseparar
+junto = ''.join(palavras)
+# print(junto)
 
-fr = frase.count('A')
+inverso = ''
+for i in range(len(junto) - 1, -1, -1):
+    inverso += junto[i]
 
-print(fr)
+# print(junto, inverso)
+if inverso == junto :
+    print("Temos um palíndromo.")
+else:
+    print("Temos um palíndromo.")
