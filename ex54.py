@@ -20,3 +20,21 @@ for i in range (0,7):
     
 print(f"Os que atingiram maioridades {maior} e são de menores {menor}")
 print(f" {cont1} { cont2}")
+
+
+########################
+
+from datetime import date
+atual = date.today().year
+
+totmaior = 0
+totmenor = 0
+ano = int( input('Em que ano a {pessoa}ª nasceu?'))
+idade = atual - ano
+for pessoa in range (1, 8):
+
+    if idade >= 21: 
+        totmaior += 1
+    else:
+        totmenor += 1
+print(f"Ao todo tivemos {totmaior} maiores de idade e {totmenor} menores de idade.")
