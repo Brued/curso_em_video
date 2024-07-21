@@ -11,28 +11,43 @@
 n1 = int (input('Digite um valor: '))
 n2 = int (input('Digite o outro valor: '))
 
-print('=.'*15)
-print("""[1] → SOMAR
-[2] → MULTIPLICAR
-[3] → NOVOS NÚMEROS
-[4] → SAIR DO PROGRAMA """)
-print('=.'*15)
+escolha = 0 
+while escolha != 5: 
+    print('=.'*15)
+    print("""    [1] → SOMAR
+    [2] → MULTIPLICAR
+    [3] → MAIOR
+    [4] → NOVOS NÚMEROS
+    [5] → SAIR DO PROGRAMA """)
+    escolha = int(input('Qual a opção desejada? '))
+    print('')
+    print('=.'*15)
 
-escolha = int(input('Qual a opção desejada? '))
-print(' ')
+    
+    print(' ')
 
-if escolha == 1:
-    n = n1 + n2
-    print(f" → A soma de {n1} e {n2} é igual a {n}.")
+    if escolha == 1:
+        soma = n1 + n2
+        print(f" → A soma de {n1} e {n2} é igual a {soma}.")
 
-if escolha == 2:
-    nn = n1 * n2
+    elif escolha == 2:
+        prod = n1 * n2
+        print(f" → A multiplicação de {n1} e {n2} é igual a {prod}")
 
-    print(f" → A multiplicação de {n1} e {n2} é igual a {nn}")
-if escolha == 3:
-    while escolha == 3:
+    elif escolha == 3:
+        if n1 > n2:
+            print(f'o primeiro → {n1}  é o maior. ')
+        else:
+            print(f' O segundo → {n2} é o maior. ')
+    elif escolha == 4:
+        print("<< Insira novamente >>")
         n1 = int (input('Digite um valor: '))
         n2 = int (input('Digite o outro valor: '))
-        escolha = int(input('Qual a opção desejada? '))
 
-# if escolha == 4:
+    elif escolha == 5:
+        print('Finalizando...')
+
+    else:
+        print('Algo deu errado ;(. Tente novamente')
+
+print('Você saiu.')
