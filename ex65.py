@@ -1,0 +1,2 @@
+# # crie um prog que leia varios numeros inteiros pelo tc.No final da execucao, mostre media entre todos os valores e
+# qua foi o maior e o menor valores lidos, o prog deve perguntar ao usuario se ele quer ou nao consinuar a digitar mais valores.

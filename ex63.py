@@ -1,0 +1,1 @@
+# escreva  um prog que leia um num n inteiro qlqr e mostre na tela o s n primeiros elementos de uma sequencia de fibonacci

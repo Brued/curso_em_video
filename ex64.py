@@ -1,0 +1,2 @@
+# crie um prog que leia varios numeros inteiros pelo tc. o prigrama so vai para qndo o usuario digitar o valor 999. q
+#que é a condicao de parada. No final mostre quantos numeros foram digitados e qual foi a soma entre eles (desconsiderando o flag)

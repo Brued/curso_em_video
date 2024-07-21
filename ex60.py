@@ -1,0 +1,1 @@
+# faa um prog que leia um num qlqr e mostre seu fatorial

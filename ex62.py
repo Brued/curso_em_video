@@ -1,0 +1,1 @@
+# melhore o df 61 perguntando para o usuario se ele quer mostrar mais alguns termoos. o programa encerra quando ele disse que quer 0 termos.
