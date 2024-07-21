@@ -8,6 +8,9 @@
 
 # seu prog devera realizar a operacao solicitada em casa caso.
 
+
+from time import spleep
+
 n1 = int (input('Digite um valor: '))
 n2 = int (input('Digite o outro valor: '))
 
@@ -22,8 +25,8 @@ while escolha != 5:
     escolha = int(input('Qual a opção desejada? '))
     print('')
     print('=.'*15)
+    sleep (2)
 
-    
     print(' ')
 
     if escolha == 1:
