@@ -3,25 +3,30 @@
 # a media de idade do grupo
 # qual é o nome do homem mais velho
 # quantas mulheres tem menos de 20 anos
-lista_idade = [ ]
-lista_nome = [ ]
-
-for i in range (0,2):
-    nome = str(input('Nome: '))
-    lista_nome.append(nome)
+s = 0
+maioridadehomem = 0
+nomevelho = ' '
+cont = 0
+for i in range (1,5):
+    print(f"------- {i}ª pessoa")
+    nome = str(input('Nome: ')).strip()
     idade= int(input('Idade: '))
-    lista_idade.append(idade)
-    sexo = str(input('Sexo M/F:'))
+    sexo = str(input('Sexo M/F:')).strip().upper()
+    s += idade 
+    if i == 1 and sexo in'M':  # posso colocar 'Mm' caso nao quera usar upper
+        maioridadehomem = idade 
+        nomevelho = nome
+    if sexo in 'M' and idade > maioridadehomem:
+        maioridadehomem = idade
+        nomevelho = nome
+    if sexo == 'F' and idade < 20:
+        cont += 1
 
 
-maior_idade = lista_idade[0]
-for idade in lista_idade:
-    if idade > maior_idade:
-        maior_idade = idade
-        print(f" {maior_idade} {lista_nome(idade)}")
-
-print(f" → A soma das idade é {sum(lista_idade)}")
-
+print('=.'*15)
+print(f" → A média das idade é {s/4}.")
+print(f" → O homem mais velho tem {maioridadehomem} anos e se chama {nomevelho}.")
+print(f" → {cont} mulheres tem menos que 20 anos.")
 
 
 
