@@ -9,7 +9,7 @@
 # seu prog devera realizar a operacao solicitada em casa caso.
 
 
-from time import spleep
+from time import sleep
 
 n1 = int (input('Digite um valor: '))
 n2 = int (input('Digite o outro valor: '))
