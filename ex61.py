@@ -10,3 +10,12 @@ print(f'Os 10 primeiros P.A. de razão {r} e primeiro termo {p} serão: ')
 while c < 10*r:
     c += r
     print(f' {c} ', end= '')
+
+##################### guanabara
+
+# termo = p
+# cont = 1
+# while cont < = 10:
+#     print (f"{termo}")
+#     termo += r 
+#     cont + = 1
