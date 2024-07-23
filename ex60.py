@@ -14,7 +14,7 @@ while c > 0:
 print(f"O fatorial de {num} é igual {f}")
 
 
-
+################ FOR 
 # f =1 
 # for n in range (num, 0 , -1):
 #     print(n, end = '')
