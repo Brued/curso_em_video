@@ -19,3 +19,4 @@ while c < 10*r:
 #     print (f"{termo}")
 #     termo += r 
 #     cont + = 1
+#  print (f" {termo}")
