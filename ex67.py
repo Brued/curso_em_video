@@ -34,6 +34,7 @@ i = 0
 #         print(f'{n} x {i} = {n*i}')
 #         c = 0
 # print('Programa encerrado.')
+############## tentativa
 
 while True:
     t = int(input('Digite um número inteiro que te daremos a sua tabuada: '))
