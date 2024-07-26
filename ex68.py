@@ -6,14 +6,15 @@
 # computador gera um núm
 from random import randint
 i= 0
-impar_parUS = ' '
+
 while True:
-    numPC = randint(0,10)
     print("\033[36mPar ou ímpar? Vamos jogar!!!\033[m")
+    numPC = randint(0,10)
     escolhaUS = int(input('Digite um número para jogarmos:'))
+    soma = numPC + escolhaUS
+    impar_parUS = ' '
     while impar_parUS not in 'PI':
         impar_parUS = str(input('Impar ou Par? [I/P]')).strip().upper()
-    soma = numPC + escolhaUS
     
     if soma % 2 == 0:
         resul = 'Par'
