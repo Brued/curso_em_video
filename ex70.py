@@ -30,3 +30,22 @@ print(f""">>> Total gasto na compra foi de {s}
 >>> {i} produtos custam mais que R$ 1.000,00
 >>> o nome do produto mais barata é {nome_barato} com valor de {barato}
 """)
+
+
+# #################### guanabara
+# #defino contador e faço 
+# menor =0
+# cont  =0 
+# barato = 0
+# if cont == 1:
+#     menor = preco
+#     barato = nome
+# else:
+#     if preco < menor:
+#         menor = preco
+#         barato = nome
+# como os blocos sao iguais posso fazer
+
+# if cont == 1 or preco < menor:
+# #     menor = preco
+#     # barato = nome
