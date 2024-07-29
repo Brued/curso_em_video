@@ -6,10 +6,9 @@
     # Definir a tupla de palavras
 tupla = ('computador', 'league','casa', 'fisica', 'deus', 'jesus', 'pai' )
 
-for palavra in tupla:
-    vogais_encontradas = ()
-    for letra in palavra:
-        if letra in vogais:
-            vogais_encontradas.add(letra)
+for p in tupla:
+    print(f'\nNa palavra {p.upper()} temos ', end = '')
+    for letra in p:
+        if letra.lower() in 'aeiou':
+            print(letra, end =' ')
 
-print(f"Na palavra '{palavra}' as vogais encontradas são: {', '.join(vogais_encontradas) if vogais_encontradas else 'nenhuma'}")
