@@ -14,12 +14,12 @@ print('-'*45)
 
 ########
 
-maior = 0
-menor = 0
-if i ==0:
-    maior = menor = numeros[i]
-else:
-    if numeros[i]> maior:
-        maior = numeros [i]
-    if numeros[i]< menor:
-        menor = numeros[i]
+# maior = 0
+# menor = 0
+# if i ==0:
+#     maior = menor = numeros[i]
+# else:
+#     if numeros[i]> maior:
+#         maior = numeros [i]
+#     if numeros[i]< menor:
+#         menor = numeros[i]
