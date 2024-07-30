@@ -10,3 +10,16 @@ print('-'*45)
 print(f'O maior número digitado foi {max(numeros)} e na posição {numeros.index(max(numeros))+1}')
 print(f'O menor número digitado foi {min(numeros)} e na posição {numeros.index(min(numeros))+1}')
 print('-'*45)
+
+
+########
+
+maior = 0
+menor = 0
+if i ==0:
+    maior = menor = numeros[i]
+else:
+    if numeros[i]> maior:
+        maior = numeros [i]
+    if numeros[i]< menor:
+        menor = numeros[i]
