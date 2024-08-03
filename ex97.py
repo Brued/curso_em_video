@@ -2,8 +2,10 @@
 # mensagem com tamanho adaptavel.
     
 def escreva(msg):
-    print(f'~'*len(msg))
-    print(msg)
-    print(f'{'~'*len(msg)}')
+    tam = len(msg) + 4
+    print(f'~'*tam)
+    print(f'  {msg}')
+    print(f'{'~'*tam}')
 
+#Programa principal
 escreva(str(input('Digite sua mensagem: ')))
